@@ -1,0 +1,30 @@
+
+<table class= "table table-striped">
+    <thead>
+    
+    <tr> 
+        <th>symbol</th>
+        <th>name</th>
+        <th>shares</th>
+        <th>price</th>
+        <th>total</th>
+    
+    </tr>
+     </thead>
+<table>
+    <?php
+
+        foreach ($positions as $position)
+        {
+            print("<tr>");
+            print("<td>". $position["symbol"]. "</td>");
+            print("<td>". $position["shares"]. "</td>");
+            print("<td>$". $position["price"]. "</td>");
+            print("<td>$". $position["total"]. "</td>");
+
+            print("</tr>");
+        }
+
+    ?>
+    </tbody>
+</table>
