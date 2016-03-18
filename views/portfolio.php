@@ -1,4 +1,4 @@
-<body style="background-color:cornsilk"/>
+<body style="background-color:white"/>
 <div class="jumbotron">
     <h1> Welcome, <?= $name["Name"]?><?= $name["Lastname"]?> </h1>
 </div>

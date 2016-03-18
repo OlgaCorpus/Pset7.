@@ -1,6 +1,5 @@
 <form action="login.php" method="post">
-<body style="background-color:cornsilk"/>
-
+<body style="background-color:white"/>
     <fieldset>
         <div class="form-group">
             <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text"/>
@@ -19,3 +18,4 @@
 <div>
     or <a href="register.php">register</a> for an account
 </div>
+ <img src="/img/ciudad.jpg"  width="700" height="450" />   
