@@ -27,8 +27,13 @@
             apologize ("Verifacate your password, confirmation and password do not match");
         }
         
+        else if ( empty($_POST["name"]) || empty($_POST["lastname"]) )
+        {
+            apologize("You must enter your name");
+        }
         
-        if (CS50::query("INSERT IGNORE INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT))==0)
+        if (CS50::query("INSERT IGNORE INTO users (username, hash, cash, name, lastname) 
+        VALUES(?, ?, 10000.0000, ?, ?)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT), $POST_['name'], $POST_['lastname']))
         {
             apologize ("The username already exists");
         }

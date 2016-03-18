@@ -1,5 +1,10 @@
+<body style="background-color:cornsilk"/>
 <form action="deposit.php" method="post">
     <fieldset>
+         <div >
+                <img src="/img/deposit.jpg"  width="350" height="300" /> 
+                <hr>
+        </div>
         <div class="form-group">
             <input autocomplete="off" autofocus class="form-control" name="deposit" placeholder="Deposit money" type="int"/>
         </div>

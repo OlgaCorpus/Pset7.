@@ -1,9 +1,15 @@
 <?php
     // configuration
     require("../includes/config.php");
-    
+    if ($_SERVER["REQUEST_METHOD"] == "GET")
+    {
+         $symbol = empty($_GET["symbol"]) ? "" : $_GET["symbol"];
+         render("buy_form.php", ["title" => "buy", "symbol" => $symbol]);
+    }
+   
     // else if user reached page via POST (as by submitting a form via POST)
-     if ($_SERVER["REQUEST_METHOD"] == "POST")
+     
+    else if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
        
         $stock = lookup($_POST["symbol"]);
@@ -36,14 +42,8 @@
         
         redirect("/");        
          
-    }        
-    else if ($_SERVER["REQUEST_METHOD"] == "GET")
-    {
-        render("buy_form.php", ["title" => "buy"]);
     }
     
-        
-    
-
+  
 ?>
 

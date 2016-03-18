@@ -1,4 +1,8 @@
 <form action="sell.php" method="post">
+<body style="background-color:cornsilk"/>
+    
+    <img src="/img/sell.jpg"  width="350" height="300" />
+    <hr>
     <fieldset>
         <div class="form-group">
             <select class ="form-control" name="symbol">

@@ -1,4 +1,6 @@
 <form action="register.php" method="post">
+<body style="background-color:cornsilk"/>
+
     <fieldset>
         
         <div class="form-group">
@@ -17,6 +19,14 @@
                 <span aria-hidden="true" class="glyphicon glyphicon-log-in"></span>
                 Register
             </button>
+        </div>
+        
+         <div class="form-group">
+            <input autocomplete="form" autofocus class="form-control" name="name" placeholder="Name" type="text"/>>
+        </div>   
+               
+        <div class="form-group">
+            <input autocomplete="form" autofocus class="form-control" name="lastname" placeholder="Lastname" type="text"/>
         </div>
     </fieldset>
 </form>

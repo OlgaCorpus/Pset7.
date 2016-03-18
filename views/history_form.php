@@ -1,3 +1,11 @@
+<body style="background-color:cornsilk"/>
+<fieldset> 
+  <div >
+               <img src="/img/history.jpg"  width="350" height="300" />   
+               <hr>
+        </div>
+        
+</fieldset>
 <table class = "table table_striped">
     <thead>
         <tr>
