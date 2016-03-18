@@ -1,4 +1,6 @@
 <form action="login.php" method="post">
+<body style="background-color:cornsilk"/>
+
     <fieldset>
         <div class="form-group">
             <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text"/>

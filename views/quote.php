@@ -1,3 +1,4 @@
+<body style="background-color:cornsilk"/>
 <h1><?= $stock["name"]?></h1>
 Price: $<?= $stock["price"]?>
  <div class="form-group">

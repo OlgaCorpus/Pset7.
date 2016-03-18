@@ -22,7 +22,7 @@
         </div>
         
          <div class="form-group">
-            <input autocomplete="form" autofocus class="form-control" name="name" placeholder="Name" type="text"/>>
+            <input autocomplete="form" autofocus class="form-control" name="name" placeholder="Name" type="text"/>
         </div>   
                
         <div class="form-group">
