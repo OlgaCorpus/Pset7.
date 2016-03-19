@@ -16,7 +16,7 @@
             </select>
         </div>
         <div class="form-group">
-            <input autocomplete="off" autofocus class="form-control" name="sharess" placeholder="No. of Shares" type="int"/>
+            <input autocomplete="off" autofocus class="form-control" name="shares_n" placeholder="No. of Shares" type="int"/>
         </div>  
         <div class="form-group">
             <button class="btn btn_default" type="submit"> Sell </button>

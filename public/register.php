@@ -33,7 +33,7 @@
         }
         
         if (CS50::query("INSERT IGNORE INTO users (username, hash, cash, name, lastname) 
-        VALUES(?, ?, 10000.0000, ?, ?)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT), $POST_['name'], $POST_['lastname']))
+        VALUES(?, ?, 10000.0000, ?, ?)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT), $_POST['name'], $POST['lastname'])==0)
         {
             apologize ("The username already exists");
         }
