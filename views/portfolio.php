@@ -1,7 +1,6 @@
 <body style="background-color:cornsilk"/>
 <div class="jumbotron">
     <h1> Welcome, <?= $name["Name"]?><?= $name["Lastname"]?> </h1>
-     <img src="/img/negocios.jpg"  width="300" height="300" /> 
 </div>
 <h1 style= "font-family: verdana; font-size: 50px; color: red;">Current cash: $<?= number_format($cash) ?>
 </h1>
